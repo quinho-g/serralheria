@@ -207,6 +207,7 @@ a {
     clip-path: none; 
     z-index: 1;
     cursor: pointer;
+    user-select: none;
 }.corte {
     position: absolute;
     width: 6rem;
