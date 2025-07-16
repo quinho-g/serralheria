@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Serralheria do zé</title>
+    <meta name="description" content="Um blog pessoal onde compartilho momentos da minha vida, pensamentos, aprendizados e histórias do meu dia a dia.">    
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="cabeçalho">
+        <img src="logo.png" class="marca">
+        <div class="navebar">
+            <a href="#servi">Serviços</a>
+            <a href="#cata">Trabalhos</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#info">Informações</a>
+        </div>
+    </div> 
+    <section id="sobre">
+        <img src="serralheria.jpg">
+        <div>
+        <h2>serralheria do zé</h2>
+        <p>Com anos de experiência e dedicação, a Serralheiro do Zé oferece <span>soluções sob medida</span> em estruturas 
+        metálicas, portões, grades, corrimãos e muito mais. Aqui, cada projeto é feito com <span>atenção aos detalhes</span>, 
+        compromisso com a <span>qualidade e entrega pontual</span>.</p>
+        </div>
+    </section>
+    <!-- CTA -->
+    <a href="https://wa.me/5519999286465?text=Olá,%20tudo%20bem?%20Quero%20fazer%20um%20orçamento." target="_blank"  rel="noopener noreferrer">
+        <div class="cta-botao">&#9742; Pedrir orçamento</div>
+    </a>
+    <p class="cta-text">Estamos atendendo em toda Araras, entre em contao conosco e faça seu orçamento.</p>
+    <div class="conhecimento">
+        <p>&nbsp;&nbsp;Aqui na Serralheiro do Zé, a gente faz de tudo um pouco quando o assunto é ferro e solda. 
+        <span>Portão, grade, cobertura, corrimão</span>... é só chamar que a gente resolve. Nosso trabalho é sempre 
+        feito com cuidado, capricho e aquele compromisso de deixar o cliente satisfeito de verdade.</p>
+        <p>&nbsp;&nbsp;Nada de enrolação: você <span>fala direto com quem faz</span>. O serviço é combinado, feito e entregue do 
+        jeito certo. E se tiver dúvida ou ideia diferente, a gente troca uma ideia e <span>faz sob medida</span>.</p>
+        <p>&nbsp;&nbsp;Com a gente, o negócio é simples: <span>trabalho honesto</span>, material de <span>qualidade</span> e <span>resultado</span> que dura. 
+        É só pedir o orçamento e deixar o resto com o Zé!</p>
+    </div>
+    <h3 class="titulo" id="servi">Serviços prestados</h3>
+    <section id="serviços">
+        <div class="item-serviço">
+            <h3>Portões</h3>
+            <p>Deslizantes, basculantes, pivotantes, automáticos ou manuais. Em ferro, aço ou alumínio.</p>
+        </div>
+        <div class="item-serviço">
+            <h3>Grades de proteção</h3>
+            <p>Para janelas, portas, muros, sacadas e portões.</p>
+        </div>
+        <div class="item-serviço">
+            <h3>Estruturas metálicas</h3>
+            <p>Coberturas, mezaninos, suportes e reforços estruturais.</p>
+        </div>
+        <div class="item-serviço">
+            <h3>Corrimãos e guarda-corpos</h3>
+            <p>Em escadas, varandas e acessos, com acabamento profissional.</p>
+        </div>
+        <div class="item-serviço">
+            <h3>Portas e portões personalizados</h3>
+            <p>Feitos sob medida, com design moderno ou tradicional.</p>
+        </div>
+        <div class="item-serviço">
+            <h3>Soldas e reparos</h3>
+            <p>Soldagem em geral, manutenção e consertos diversos.</p>
+        </div>
+    </section>
+    <p class="titulo" id="cata">Aqui estão alguns de nossos trabalhos!</p>
+    <img src="portao1.jpg" id="img-catalogo" onclick="fechacata()">
+    <section class="catalogo">
+        <div class="item-catalogo" onclick="sobecata('portao1.jpg')">
+            <div class="corte"></div>
+            <img src="portao1.jpg">
+            <p>Portão de entrada unica.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao2.jpg')">
+            <div class="corte"></div>
+            <img src="portao2.jpg" alt="">
+            <p>Portão de garagem e entrada unica com rasgos.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao3.jpg')">
+            <div class="corte"></div>
+            <img src="portao3.jpg" alt="">
+            <p>Portão completo de chapas cruzadas.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao4.jpg')">
+            <div class="corte"></div>
+            <img src="portao4.jpg" alt="">
+            <p>Grades para jardim.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao5.jpg')">
+            <div class="corte"></div>
+            <img src="portao5.jpg" alt="">
+            <p>Suporte para vasos e plantas.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao6.jpg')">
+            <div class="corte"></div>
+            <img src="portao6.jpg" alt="">
+            <p>Corrimão de escada.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao7.jpg')">
+            <div class="corte"></div>
+            <img src="portao7.jpg" alt="">
+            <p>Guarda corpo de escadas com vidros.</p>
+        </div>
+        <div class="item-catalogo" onclick="sobecata('portao8.jpg')">
+            <div class="corte"></div>
+            <img src="portao8.jpg" alt="">
+            <p>Portão estilizado com rasgo e barras paralelas.</p>
+        </div>
+    </section>
+    <h3 class="titulo">Como funciona o nosso trabalho?</h3>
+    <section id="passos">
+        <div class="passo">
+            <h3>Passo 1: Atendimento e orçamento</h3>
+            <p>O cliente <span>entra em contato</span> e explica o que precisa: seja um portão, grade, corrimão ou qualquer 
+            outro serviço de serralheria. A gente conversa, entende a ideia e, se necessário, faz uma visita até 
+            o local para tirar medidas e avaliar os detalhes. Com base nisso, <span>preparamos um orçamento</span> claro e <span>sem 
+            compromisso</span>.</p>
+        </div>
+        <div class="passo">
+            <h3>Passo 2: Aprovação e acerto de detalhes</h3>
+            <p>Com o <span>orçamento aprovado</span>, combinamos tudo com o cliente: medidas, modelo, material, 
+            pintura, prazos e valor total. Também esclarecemos tudo sobre a <span>entrega e instalação</span>, 
+            pra não ter erro.</p>
+        </div>
+        <div class="passo">
+            <h3>Passo 3: Entrada para início do serviço</h3>
+            <p>Para começar o trabalho, normalmente é feito um adiantamento (ou sinal) de parte do valor. 
+            Isso serve pra <span>garantir o compromisso e cobrir os custos</span> dos materiais.</p>
+        </div>
+        <div class="passo">
+            <h3>Passo 4: Fabricação na oficina</h3>
+            <p>Com tudo acertado, iniciamos a fabricação na oficina. Cortamos, soldamos, montamos e fazemos 
+            os acabamentos com todo cuidado. Cada peça é <span>feita sob medida</span>, do jeito que foi combinado com o 
+            cliente.</p>
+        </div>
+        <div class="passo">
+            <h3>Passo 5: Instalação no local</h3>
+            <p>Quando o serviço está pronto, levamos até o local e <span>fazemos a instalação</span>. Tudo é feito 
+            com segurança, nivelamento e atenção aos detalhes, garantindo um <span>resultado bonito e funcional</span>.</p>
+        </div>
+        <div class="passo">
+            <h3>Passo 6: Revisão e entrega final</h3>
+            <p>Depois da instalação, o <span>cliente confere tudo</span>. Se tiver algum ajuste ou retoque final, 
+            a gente faz na hora. Só entregamos o serviço quando o cliente estiver <span>satisfeito</span>.</p>
+        </div>
+        <div class="passo">
+            <h3>Passo 7: Pagamento final</h3>
+            <p>Com o <span>serviço concluído</span>, o cliente realiza o pagamento restante. Aceitamos diversas formas de 
+            pagamento, como PIX, transferência ou dinheiro.</p>
+        </div>
+    </section>
+    <!-- CTA -->
+    <a href="https://wa.me/5519999286465?text=Olá,%20tudo%20bem?%20Quero%20fazer%20um%20orçamento." target="_blank"  rel="noopener noreferrer">
+        <div class="cta-botao">&#9742; Pedrir orçamento</div>
+    </a>
+    <h3 class="titulo" id="depoimentos">Esse são os depoimentos de nossos clientes</h3>
+    <section id="depo">
+        <div class="cliente">
+            <img src="cliente1.jpg">
+            <div class="resposta-cliente">
+                <h3>Pedro Rafael / Portão automático</h3>
+                <p>"O Zé fez um serviço excelente, rápido e com ótimo acabamento. Recomendo de olhos fechados!"</p>
+            </div>
+        </div>
+        <div class="cliente">
+            <img src="cliente2.jpg">
+            <div class="resposta-cliente">
+                <h3>Carla Menezes / Grade de proteção</h3>
+                <p>"Ficou perfeito! As grades ficaram lindas e me senti muito mais segura em casa."</p>
+            </div>
+        </div>
+        <div class="cliente">
+            <img src="cliente3.jpg">
+            <div class="resposta-cliente">
+                <h3>Marcos Lima / Estrutura metálica para cobertura</h3>
+                <p>"Serviço profissional, entrega no prazo e tudo exatamente como combinamos. Muito satisfeito."</p>
+            </div>
+        </div>
+        <div class="cliente">
+            <img src="cliente4.jpg">
+            <div class="resposta-cliente">
+                <h3>João Paulo / Corrimão para escada</h3>
+                <p>"Atendimento top e instalação impecável. O corrimão valorizou ainda mais meu espaço."</p>
+            </div>
+        </div>
+        <div class="cliente">
+            <img src="cliente5.jpg">
+            <div class="resposta-cliente">
+                <h3>Ana Lúcia / Portão de correr sob medida</h3>
+                <p>"Ficou melhor do que eu esperava! Material de qualidade e ótimo acabamento."</p>
+            </div>
+        </div>
+        <div class="cliente">
+            <img src="cliente6.jpg">
+            <div class="resposta-cliente">
+                <h3>Fábio Santos / Solda e reparo em portão antigo</h3>
+                <p>"Salvou meu portão! Serviço rápido, limpo e bem-feito. Parabéns pelo trabalho!"</p>
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <a href="https://wa.me/5519999286465?text=Olá,%20tudo%20bem?%20Quero%20fazer%20um%20orçamento." target="_blank"  rel="noopener noreferrer">
+        <div class="cta-botao">&#9742; Pedrir orçamento</div>
+    </a>
+    <h3 class="titulo" id="info">Informações adicionais</h3>
+    <section id="informaçoes">
+        <div class="localizaçao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14781.537468526505!2d-47.40002824334212!3d-22.391873708111884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c879896947ba25%3A0xc7cabb47894baa3d!2sZiviani%20Calhas%20e%20Serralheria!5e0!3m2!1sen!2sbr!4v1752437953053!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+        </div>
+        <div class="loc-hor">
+            <div>
+                <h3>horario</h3>
+                <p>Atendemos de <span>segunda a sexta, das 8h às 18h</span>, e aos <span>sábados das 8h às 12h</span>. Fale com 
+                a gente pelo <a href="https://wa.me/5519999286465?text=Olá,%20tudo%20bem?%20Quero%20fazer%20um%20orçamento." style="color: rgb(21, 255, 0);">WhatsApp</a> 
+                a qualquer momento para orçamentos e dúvidas!</p>
+            </div>
+            <div>
+                <h3>localização</h3>
+                <p>Estamos localizados em <span>Araras-SP</span>, atendendo toda a região com serviços de serralheria 
+                sob medida. <br> <span>R. Angelo Antônio Buso, 13609-470, N: 445</span></p>
+            </div>
+        </div>
+    </section>
+    <section class="formulario-contato">
+    <h2>Peça seu orçamento</h2>
+    <form action="https://formsubmit.co/marcos.paquito2020@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="tel" name="telefone" placeholder="Seu telefone ou WhatsApp" required>
+        <textarea name="mensagem" placeholder="Descreva o que você precisa" required></textarea>
+        
+        <!-- Campos ocultos de segurança e redirecionamento -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+        
+        <button type="submit">Enviar</button>
+    </form>
+    </section>
+    <footer>
+        <div>
+            <a href="politica.html">Politica de privacidade</a>
+            <a href="">Instagram</a>
+            <a href="">Facebook</a>
+            <a href="">Gmail</a>
+        </div>
+        <h4>Copyright - Marcos antonio. Todos os direitas reservados.</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
