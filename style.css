@@ -294,7 +294,7 @@ a {
     height: auto;
     padding: 1.4rem;
     font-size: 1.2rem;
-    background-color: var(--base);
+    background-color: #71ff69;
     display: flex;
     align-items: center;
     gap: 1rem;
