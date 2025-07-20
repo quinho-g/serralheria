@@ -596,9 +596,9 @@ footer a {
     display: flex;
     justify-content: left;
     align-items: left;
-    padding-left: 5rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-left: 2.8rem;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
 }
 
 .marca {
