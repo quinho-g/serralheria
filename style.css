@@ -594,18 +594,16 @@ footer a {
     /* cabeçlho */
 .cabeçalho {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 0;
+    justify-content: left;
+    align-items: left;
+    padding-left: 5rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
 .marca {
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
 }.navebar {
     display: none;
 }
