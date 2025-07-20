@@ -607,11 +607,6 @@ footer a {
     width: 10rem;
     height: 10rem;
 }.navebar {
-    margin-right: 0;
-    gap: 1rem;
-}.navebar a {
-    font-size: 1.2rem;
-}.navebar a::before {
     display: none;
 }
 
