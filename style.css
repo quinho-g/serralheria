@@ -615,27 +615,19 @@ footer a {
     /* cabeçlho */
 .cabeçalho {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 0;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-left: 2.6rem;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
 }
 
 .marca {
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
 }.navebar {
-    margin-right: 0;
-    gap: 1rem;
-}.navebar a {
-    font-size: 1.2rem;
-}.navebar a::before {
-    display: none;
+  display: none;
 }
-
 /* sobre */
 #sobre {
     flex-direction: column;
